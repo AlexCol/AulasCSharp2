@@ -1,0 +1,8 @@
+
+Primeiro cria-se quem vai ser o gerenciador dos eventos (quem vai os armazenar e disparar).
+
+No caso desse exemplo, foi criada a Cozinha, que vai ter uma função para disparar eventos que avisam que um pedido está pronto.
+--Na classe cozinha:
+---Há uma propriedade Delegate, para poder recebermos armazenar uma função.
+---Então criamos uma 'lista' do 
+-Nela há uma função normal, que é quem vai ser chamado.
