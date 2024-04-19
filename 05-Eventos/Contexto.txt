@@ -4,5 +4,12 @@ Primeiro cria-se quem vai ser o gerenciador dos eventos (quem vai os armazenar e
 No caso desse exemplo, foi criada a Cozinha, que vai ter uma função para disparar eventos que avisam que um pedido está pronto.
 --Na classe cozinha:
 ---Há uma propriedade Delegate, para poder recebermos armazenar uma função.
----Então criamos uma 'lista' do 
--Nela há uma função normal, que é quem vai ser chamado.
+---Então criamos um variavel do tipo do nosso delgate, para de fato chamarmos a 'lista'.
+---Nela há uma função normal, que é quem vai ser chamado o delegate.
+
+Então é criada uma classe Garçom que representa os atendentes do restaurante.
+--Na classe Garçom:
+---Possui um metodo com a mesma assinatura e retorno do delegate da cozinha, implementada com seus dados locias (no caso, o nome).
+---Criamos um construtor que vai receber o nome do garçom e a cozinha a qual ele está alocado. Então com essa referencia da cozinha, adicionamos a chamadora dos eventos o metodo de chamar o garçom.
+
+Então no aplicativo, é só a Cozinha chamar seu metodo, que será executada todas as chamados ao garçons a ela atribuidos.
