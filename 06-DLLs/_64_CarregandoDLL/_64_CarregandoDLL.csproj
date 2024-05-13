@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="_63_CriandoDLL">
+      <HintPath>../../06-DLLs/_63_CriandoDLL/bin/Debug/net8.0/_63_CriandoDLL.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
