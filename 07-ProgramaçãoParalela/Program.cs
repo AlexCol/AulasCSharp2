@@ -6,4 +6,7 @@ using _07_ProgramaçãoParalela.src.Exemplos;
 // slp.Run();
 
 //MyMultiThreads.Run();
-new MyMultiThreads2().Run();
+//new MyMultiThreads2().Run();
+//new MyTask().Run();
+//new MutexAndSemaphore().Run();
+new AsyncAndAwait().Run();
